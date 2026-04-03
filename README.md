@@ -39,4 +39,4 @@ This project is a **Netflix landing page clone** created using **HTML and CSS**.
 
 ##  Author
 
-Rudra Prakash
+Maturi Lohit
