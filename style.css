@@ -21,13 +21,17 @@ body {
 }
 
 .main .box {
-    height: 70vh;
+    height: 90vh;
     width: 100%;
     opacity: 0.69;
     position: absolute;
     top: 0;
     background-color: black;
 
+}
+nav{
+position:relative;
+z-index:10;
 }
 
 nav {
@@ -245,9 +249,12 @@ footer .questions {
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows:repeat(3,auto);
+    gap:20px;
     color: white;
 }
+
 
 
 
@@ -338,4 +345,6 @@ footer .questions {
     color: #aaa;
     font-size: 16px;
     position: relative;
+    padding-bottom: 40px;
+    height:auto;
 }
